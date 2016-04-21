@@ -4,46 +4,85 @@
     <meta charset="UTF-8">
     <title>Pendulo Balistico</title>
 
-    <button type="button">Tutorial de funcionamiento</button>
-
-    <div>
-        Datos
-    </div>
-
-
-    <input type="number" name="masa bala">
-    <select name="Unidades">
-        <option value="g">g</option>
-        <option value="Kg">kg</option>
-    </select>
-    <br>
-    <input type="number" name="masa bloque">
-    <select name="Unidades">
-        <option value="g">g</option>
-        <option value="Kg">kg</option>
-    </select>
-    <br>
-    <input type="number" name="velocidad bala">
-    <select name="Unidades">
-        <option value="M/s">m/s</option>
-        <option value="Km/h">km/h</option>
-    </select>
-    <br>
-    <input type="number" name="velocidad bloque">
-    <select name="Unidades">
-        <option value="M/s">m/s</option>
-        <option value="Km/h">km/h</option>
-    </select>
-    <br>
-    <input type="number" name="distancia altura bloque">
-    <select name="Unidades">
-        <option value="mm">mm</option>
-        <option value="cm">cm</option>
-        <option value="m">m</option>
-    </select>
+    <link rel="stylesheet" href="index2.css" type="text/css">
 
 </head>
 <body>
+<h1> Pendulo Balistico</h1>
+
+<button type="button">Tutorial de funcionamiento</button>
+
+<div class="alineamiento" align="center">
+    Que se quiere calcular
+
+<select name="Calcular">
+    <option value="Masa Bala">Masa Bala</option>
+    <option value="Masa Bloque">Masa Bloque</option>
+    <option value="Velocidad Bala">Velocidad Bala</option>
+    <option value="Velocidad Bloque">Velocidad Bloque</option>
+    <option value="Distancia altura Bloque">Distancia altura Bloque</option>
+</select>
+</div>
+<br>
+<div>
+    Datos
+</div>
+
+<div>
+    Masa Bala
+</div>
+<input type="number" name="masa bala" class="miInput" placeholder="mada de la bala">
+<select name="Unidades">
+    <option value="g">g</option>
+    <option value="Kg">kg</option>
+</select>
+<br>
+
+<br>
+<div>
+   Masa Bloque
+</div>
+<input type="number" name="masa bloque" class="miInput">
+<select name="Unidades">
+    <option value="g">g</option>
+    <option value="Kg">kg</option>
+</select>
+<br>
+
+<br>
+<div>
+    Velocidad Bala
+</div>
+<input type="number" name="velocidad bala" class="miInput">
+<select name="Unidades">
+    <option value="M/s">m/s</option>
+    <option value="Km/h">km/h</option>
+</select>
+<br>
+
+<br>
+<div>
+    Velocidad Bloque
+</div>
+<input type="number" name="velocidad bloque" class="miInput">
+<select name="Unidades">
+    <option value="M/s">m/s</option>
+    <option value="Km/h">km/h</option>
+</select>
+<br>
+
+<br>
+<div>
+    Distacia altura Bloque
+</div>
+<input type="number" name="distancia altura bloque" class="miInput">
+<select name="Unidades">
+    <option value="mm">mm</option>
+    <option value="cm">cm</option>
+    <option value="m">m</option>
+</select>
+
+
 
 </body>
 </html>

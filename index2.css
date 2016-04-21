@@ -1,0 +1,27 @@
+
+body
+{
+    background: linear-gradient(to right, red , yellow, green, black, pink); /* gradiente */
+
+}
+h1{
+
+    color:#333333;
+    font-weight:bold;
+    margin-left:15px;
+    margin-right:15px;
+    margin-top:20px;
+    padding-bottom:20px;
+    font-size:30px;
+    text-align:center;
+}
+
+
+.miInput{
+background-color: lightgray;
+    border-radius: 5px;
+}
+
+.alineamiento{
+
+}
