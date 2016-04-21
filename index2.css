@@ -1,9 +1,10 @@
 
 body
 {
-    background: linear-gradient(to right, red , yellow, green, black, pink); /* gradiente */
-
+    background: antiquewhite; /* solo color */
 }
+
+
 h1{
 
     color:#333333;
