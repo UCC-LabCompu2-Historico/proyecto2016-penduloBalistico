@@ -1,7 +1,10 @@
 
 body
 {
-    background: antiquewhite; /* solo color */
+    background: url(fondo.jpg) #aaaaaa;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
 }
 
 
