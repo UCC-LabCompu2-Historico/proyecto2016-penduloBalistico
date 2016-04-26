@@ -30,15 +30,15 @@
         <option value="g/km/h">g/km/h</option>
     </select>
 </div>
-<br>
-<div>
-    Datos
-</div>
+
+
+
+<h2> Datos </h2>
 
 <div>
     Masa Bala
 </div>
-<input type="number" name="masa bala" class="miInput" placeholder="Masa de la bala">
+<input type="number" name="masa bala" min="0" class="miInput" placeholder="Masa de la bala">
 <select name="Unidades">
     <option value="g">g</option>
     <option value="Kg">kg</option>
@@ -49,7 +49,7 @@
 <div>
    Masa Bloque
 </div>
-<input type="number" name="masa bloque" class="miInput" placeholder="Masa de la bloque">
+<input type="number" name="masa bloque" min="0" class="miInput" placeholder="Masa de la bloque">
 <select name="Unidades">
     <option value="g">g</option>
     <option value="Kg">kg</option>
@@ -60,7 +60,7 @@
 <div>
     Velocidad Bala
 </div>
-<input type="number" name="velocidad bala" class="miInput" placeholder="Velocidad de bala">
+<input type="number" name="velocidad bala" min="0" class="miInput" placeholder="Velocidad de bala">
 <select name="Unidades">
     <option value="M/s">m/s</option>
     <option value="Km/h">km/h</option>
@@ -71,7 +71,7 @@
 <div>
     Velocidad Bloque
 </div>
-<input type="number" name="velocidad bloque" class="miInput" placeholder="Velocidad bloque">
+<input type="number" name="velocidad bloque" min="0" class="miInput" placeholder="Velocidad bloque">
 <select name="Unidades">
     <option value="M/s">m/s</option>
     <option value="Km/h">km/h</option>
@@ -82,34 +82,64 @@
 <div>
     Distacia altura Bloque
 </div>
-<input type="number" name="distancia altura bloque" class="miInput" placeholder="Distancia altura bloque">
+<input type="number" name="distancia altura bloque" min="0" class="miInput" placeholder="Distancia altura bloque">
 <select name="Unidades">
     <option value="mm">mm</option>
     <option value="cm">cm</option>
     <option value="m">m</option>
 </select>
-<br>
-
-<br>
-<input type="reset"
-       value="Restablecer todos los campos a su valor predeterminado" />
-</form>
-<br>
-
 
 <br>
 <div class="alineamiento" align="center">
-<input type="button" value="Calcular" onclick="calcular()"/">
+<input type="button" value="Calcular" onclick="calcular()"/>
+
     </div>
+
+<br>
+<h2> Resultados </h2>
+<div>
+    Masa Bala
+</div>
+<input type="number" name="resultado" min="0">
 <br>
 <div>
-    Resultados
-    </div>
+    Masa Bloque
+</div>
+<input type="number" name="resultado" min="0">
+<br>
+<div>
+    Velocidad Bala
+</div>
+<input type="number" name="resultado" min="0">
+<br>
+<div>
+    Velocidad Bloque
+</div>
+<input type="number" name="resultado" min="0">
+<br>
+<div>
+    Distancia altura Bloque
+</div>
+
+<input type="number" name="resultado" min="0">
+
+</select>
+<br>
+
+<div class="alineamiento" align="right">
+<button type="button">Formulas</button>
 <br>
 <div class="alineamiento" align="center">
         <div>
-        Video Explicativo
+            <b>Video Explicativo</b>
         </div>
 <blockquote class="imgur-embed-pub" lang="en" data-id="84794fD"><a href="//imgur.com/84794fD">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    <br>
+
+    <br>
+    <input type="reset"
+           value="Restablecer todos los campos a su valor predeterminado" />
+    </form>
+    <br>
 </body>
 </html>
