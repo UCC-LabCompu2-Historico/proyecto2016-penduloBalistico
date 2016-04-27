@@ -1,11 +1,12 @@
 
 body
 {
-    background: url(fondo.jpg) #aaaaaa;
-    background-repeat: no-repeat;
+    background: url(Imagenes/fondo.jpg) #aaaaaa;
     background-position: center;
     background-size: 150%;
+
 }
+
 
 
 h1{
