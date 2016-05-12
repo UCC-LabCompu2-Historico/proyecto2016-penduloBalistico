@@ -24,13 +24,13 @@ h1{
 
 
 h3{
-    color: #1E8449;
+    color: #873600;
     font-weight:bold;
-    margin-left:20px;
-    margin-right:20px;
-    margin-top:25px;
-    padding-bottom:10px;
-    font-size:35px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:35px;
+    padding-bottom:20px;
+    font-size:20px;
 
 }
 h4{
@@ -50,9 +50,50 @@ background-color: lightgray;
 
 #caja1 {
     border:2px solid;
-    border-radius:25px;
+    border-radius:5px;
+    padding: inherit;
     text-align: center;
     font-family: arial;
+    background: #FAD7A0 ;
+}
+
+#caja2 {
+    border:2px solid;
+    border-radius:10px;
+    background-color:#F7F9F9;
+    text-align: match-parent;
+    font-family:Courrier;
+    height: 25em;
+    width: 25em;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:35px
+}
+
+#caja3 {
+    border:2px solid;
+    border-radius:10px;
+    background-color:#2ECC71  ;
+    text-align: center;
+    align-content: center;
+    font-family:Courrier;
+    height: 22em;
+    width: 15em;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:35px
+}
+
+#caja4 {
+    border:2px solid;
+    border-radius:10px;
+    background-color:#2ECC71  ;
+    text-align: center;
+    align-content: center;
+    font-family:Courrier;
+    height: 5;
+    width: 5;
+
 }
 
 .alineamiento{
