@@ -1,9 +1,9 @@
 
 body
 {
-    background: url(Imagenes/fondo.jpg) #aaaaaa;
-    background-position: center;
+    background: url("Imagenes/fondo6.jpg") ;
     background-size: 150%;
+    background-width: 100%;
 
 }
 
