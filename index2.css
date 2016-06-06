@@ -43,31 +43,47 @@ h4{
     font-size:45px;
 
 }
+h5{
+    color: rgba(246, 236, 215, 0.98);
+    font-weight: normal;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:10px;
+    padding-bottom:10px;
+    font-size:20px;
+
+}
 .miInput{
 background-color: lightgray;
     border-radius: 5px;
 }
-
 #caja1 {
-    border:2px solid;
-    border-radius:5px;
-    padding: inherit;
+
+    border-radius: 10px;
+    background-color: rgba(229, 229, 229, 0.62);
     text-align: center;
-    font-family: arial;
-    background: #FAD7A0 ;
+    align-content: center;
+    font-family: Courrier;
+    height: 8em;
+    width: 20em;
+    margin-left: inherit;
+    margin-right: auto;
+    margin-top: 250px;
+
 }
 
+
 #caja2 {
-    border:2px solid;
-    border-radius:10px;
-    background-color:#F7F9F9;
-    text-align: match-parent;
-    font-family:Courrier;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgba(247, 249, 249, 0.62);
+    text-align: center;
+    font-family: Courrier;
     height: 25em;
     width: 25em;
-    margin-left:30px;
-    margin-right:30px;
-    margin-top:35px
+    margin-left: inherit;
+    margin-right: auto;
+    margin-top: 9px;
 }
 
 #caja3 {
@@ -75,15 +91,26 @@ background-color: lightgray;
     border-radius:10px;
     background-color:#2ECC71  ;
     text-align: center;
-    align-content: center;
+    align-content: flex-start;
     font-family:Courrier;
     height: 22em;
     width: 15em;
-    margin-left:30px;
+    margin-left:100px;
     margin-right:30px;
     margin-top:35px
 }
-
+#cajaBoton^{
+order-radius: 10px;
+background-color: rgba(229, 229, 229, 0.62);
+text-align: center;
+align-content: center;
+font-family: Courrier;
+height: 8em;
+width: 20em;
+margin-left: inherit;
+margin-right: auto;
+margin-top: 250px;
+}
 #caja4 {
     border:2px solid;
     border-radius:10px;
